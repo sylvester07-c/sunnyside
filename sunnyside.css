@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: auto;
+    height: 100vh;
+    background-image: url('./images/desktop/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+header{
+    /* width: inherit; */
+    display: flex;
+    gap: 70%;
+    padding-top: 30px;
+}
+
+.header-nav{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+    margin-right: 3%;
+}
+
+#join{
+    margin-left: 3%;
+    
+}
+
+.header-nav :hover{
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.arrow{
+    color: white;
+    text-align: center;
+    margin-top: 12%;
+}
+
+#arrow-txt{
+    font-size: 300%;
+}
+#arrow{
+    margin-top: 5%;
+}
+
+.transform{
+    /* border: 2px solid red; */
+    width: auto;
+    height: 600px;
+    display: flex;
+}
+
+.transform1{
+    /* border: 2px solid  teal; */
+    width: 50%;
+    height: inherit;
+    font-size: larger;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+.text1{
+    color: thistle;
+    margin-top: 5%;
+    padding-bottom: 10%;
+}
+
+.text2{
+    border-bottom: 2px solid pink;
+}
+.text2:hover{
+    border-bottom: 2px solid yellow;
+    margin-top: 10px;
+}
+
+.transform2{
+    /* border: 2px solid purple; */
+    width: 50%;
+    height: inherit;
+    background-image: url('./images/desktop/image-transform.jpg');
+}
+
+.standout{
+    /* border: 2px solid green;  */
+    width: auto;
+    height: 600px;
+    display: flex;
+    
+
+}
+
+.standout1{
+    /* border: 2px solid gold; */
+    width: 59.5%;
+    height: 600px;
+    background-image: url('./images/desktop/image-stand-out.jpg');  
+}
+
+.standout2{
+    /* border: 2px solid orange; */
+    width: 50%;
+    height: 600px;
+    font-size: larger;
+    margin-left: 60px;
+    margin-top: 200px;
+}
+
+.text4{
+    margin-top: 5%;
+}
+
+.graphic{
+    /* border: 2px solid green;  */
+    width: auto;
+    height: 600px;
+    display: flex;
+    
+
+}
+
+.graphic1{
+    /* border: 2px solid gold; */
+    width: 54%;
+    height: 600px;
+    background-image: url('./images/desktop/image-graphic-design.jpg');  
+    
+}
+
+.text5{
+    margin-top: 60%;
+    margin-left: 35% ;
+    color: hsl(198, 62%, 26%);
+}
+.text6{
+    margin-top: 5%;
+    margin-left: 195px;
+    color: hsl(198, 62%, 26%);
+}
+
+.graphic2{
+    /* border: 2px solid orange; */
+    width: 50%;
+    height: 600px;
+    background-image:url('./images/desktop/image-photography.jpg');
+}
+
+.text7{
+    margin-top: 60%;
+    margin-left: 35%;
+    color:  hsl(198, 62%, 26%);
+}
+
+.text8{
+    margin-top: 5%;
+    margin-left: 195px ;
+}
+
+.text9{
+    margin-left: 550px;
+    margin-top: 10%;
+}
+
+.testimonies{
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test{
+    margin-top: 20%;
+}
+
+.emily{
+    /* border: 2px solid gold;  */
+    width: 33.5%;
+    height: 600px;
+}
+
+.photo1{
+    border-radius: 300%;
+    margin-left: 40%;
+    margin-top: 50%;
+    width: 50px;
+}
+
+.text9{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 3%;
+    color: midnightblue;
+    text-align: center; 
+}
+
+.texta{
+    /* margin-left: 35%;  */
+    margin-top: 5%;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+    text-align: center; 
+    margin-right: 10%;
+}
+
+.textb{
+    /* margin-left: 29%; */
+    color: thistle;
+    margin-top: 3%;
+    text-align: center;
+    margin-right: 10%; 
+}
+
+.thomas{
+    /* border: 2px solid green; */
+    height: 600px;
+    width:33.5%
+
+}
+
+.test{
+    margin-top: 20%;
+    margin-left: 10%;
+    color: thistle;
+}
+
+.photo2{
+    border-radius: 300%;
+    margin-left: 40%;
+    margin-top: 20%;
+    width: 50px;
+}
+
+.text10{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: midnightblue;
+    text-align: center; 
+}
+
+.textc{
+    /* margin-left: 35%; */
+    margin-top: 5%;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+    text-align: center; 
+}
+
+.textd{
+    /* margin-left: 29%; */
+    color: thistle;
+    margin-top: 3%;
+    text-align: center; 
+}
+
+.jennie{
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 33.5%;
+}
+
+.photo3{
+    border-radius: 300%;
+    margin-left: 40%; 
+    margin-top: 49%;
+    width: 50px;
+    /* text-align: center; */
+}
+
+.text11{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: midnightblue;
+    text-align: center;
+}
+
+.texte{
+    /* margin-left: 35%; */
+    margin-top: 5%;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+    text-align: center; 
+}
+
+.textf{
+    /* margin-left: 29%; */
+    color: thistle;
+    margin-top: 3%;
+    text-align: center; 
+}
+
+.milk{
+    /* border: 2px solid green;   */
+    width: auto;
+    height: 400px;
+    display: flex;
+}
+
+.milkbottle{
+    /* border: 2px solid orange; */
+    width: 25%;
+    height: 400px;
+    background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.orange{
+    /* border: 2px solid black ; */
+    width: 25%;
+    height: inherit;
+    background-image: url('./images/desktop/image-gallery-orange.jpg');
+    background-size: cover;
+}
+
+.cone{
+    /* border: 2px solid violet; */
+    width: 25%;
+    height: 400px;
+    background-image: url('./images/desktop/image-gallery-cone.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sugar{
+    /* border: 2px solid tomato; */
+    width: 25%;
+    height: 400px;
+    background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+    background-size: cover;
+}
+
+.foot{
+    border: 2px solid hsl(168, 34%, 41%);;
+    width: auto;
+    height: 300px;
+    background-color: hsl(168, 34%, 41%);
+}
+
+.sunny{
+    margin-left: 45%;
+    margin-top: 3%;
+    font-style: italic;
+    color: aquamarine;
+}
+
+.details{
+    margin-left: 42%;
+    margin-top: 4%;
+    word-spacing: 30px;
+    color: aquamarine;
+}
+
+.icons{
+    margin-left: 43%;
+    margin-top: 5%;
+    word-spacing: 30px;
+}
